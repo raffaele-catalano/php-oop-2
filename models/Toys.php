@@ -3,8 +3,10 @@
 require_once __DIR__ . '/Product.php';
 
 class Toys extends Product {
+
     private $material;
     private $dimensions;
+    
     //SETTER
     public function setMaterial($_material){
         $this->material = $_material;
