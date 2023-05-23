@@ -1,7 +1,8 @@
 <?php
 
-$foodShop = [];
-$toysShop = [];
+$foodShop       = [];
+$toysShop       = [];
+$sanitaryShop   = [];
 
 //FOOD
 $crocchetteMaxiAgeing = new Food ('Crocchette Maxi Ageing 8+');
@@ -68,6 +69,35 @@ $toysShop[] = $kongPuppy;
 /////////////////////////////////////////
 
 //SANITARY
+$collareSeresto = new Sanitary('Collare per cani 8kg+');
+$collareSeresto->setImage('assets/img/sanitary-img/collare_seresto.jpg');
+$collareSeresto->setAction('Antiparassitario');
+$collareSeresto->setDuration('8 mesi');
+$collareSeresto->setBrand('Seresto');
+$collareSeresto->setCategory('Per Cani');
+$collareSeresto->setPrice(31.99);
+$collareSeresto->setDescription('Collare antiparassitario per cani di taglia grande oltre gli 8 kg di peso corporeo, contro pulci e zecche, rilascia principi attivi.');
+$sanitaryShop[] = $collareSeresto;
+/////////////////////////////////////////
+$sprayAntiparassitario = new Sanitary('Spray Igienico');
+$sprayAntiparassitario->setImage('assets/img/sanitary-img/frontline_spray.jpg');
+$sprayAntiparassitario->setAction('Antiparassitario');
+$sprayAntiparassitario->setDuration('5 mesi');
+$sprayAntiparassitario->setBrand('Frontline');
+$sprayAntiparassitario->setCategory('Per Cani, Per Gatti');
+$sprayAntiparassitario->setPrice(39.99);
+$sprayAntiparassitario->setDescription('Antiparassitario in spray per cani e gatti, per il trattamento delle infestazioni da zecche, pulci e pidocchi, quando l’infestazione è già in atto.');
+$sanitaryShop[] = $sprayAntiparassitario;
+/////////////////////////////////////////
+$furminator = new Sanitary('FURminator');
+$furminator->setImage('assets/img/sanitary-img/furminator.jpg');
+$furminator->setAction('Cura del Pelo');
+$furminator->setDuration('n.a.');
+$furminator->setBrand('deShedding');
+$furminator->setCategory('Per Gatti');
+$furminator->setPrice(49.99);
+$furminator->setDescription('FURminator è uno strumento per la cura del pelo del gatto, con pettine in acciaio inox per rimuovere il sottopelo, con impugnatura ergonomica, per pelo corto o lungo.');
+$sanitaryShop[] = $furminator;
 
 
 
