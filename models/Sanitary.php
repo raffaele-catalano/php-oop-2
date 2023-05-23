@@ -5,7 +5,7 @@ require_once __DIR__ . '/Product.php';
 class Sanitary extends Product {
 
     private $action;
-    private $duration;
+    private $duration = null;
 
     //SETTER
     public function setAction($_action){

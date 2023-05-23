@@ -10,5 +10,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css' integrity='sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==' crossorigin='anonymous'/>
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/pets_favicon.png" type="png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Pet Shop</title>
 </head>

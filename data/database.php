@@ -48,7 +48,7 @@ $mouseCatnip->setDescription('Topolino in peluche con catnip di Trixie, con coda
 $toysShop[] = $mouseCatnip;
 /////////////////////////////////////////
 $arkLeo = new Toys ('Archetto Little Leo');
-$arkLeo->setImage('assets/img/toys-img/little_leo.jpg');
+$arkLeo->setImage('assets/img/toys-img/litte_leo.jpg');
 $arkLeo->setBrand('PeToys');
 $arkLeo->setMaterial('Poliestere');
 $arkLeo->setCategory('Per Gatti');
@@ -92,14 +92,9 @@ $sanitaryShop[] = $sprayAntiparassitario;
 $furminator = new Sanitary('FURminator');
 $furminator->setImage('assets/img/sanitary-img/furminator.jpg');
 $furminator->setAction('Cura del Pelo');
-$furminator->setDuration('n.a.');
+// $furminator->setDuration('n.a.');
 $furminator->setBrand('deShedding');
 $furminator->setCategory('Per Gatti');
 $furminator->setPrice(49.99);
 $furminator->setDescription('FURminator è uno strumento per la cura del pelo del gatto, con pettine in acciaio inox per rimuovere il sottopelo, con impugnatura ergonomica, per pelo corto o lungo.');
 $sanitaryShop[] = $furminator;
-
-
-
-
-

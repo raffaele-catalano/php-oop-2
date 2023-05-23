@@ -6,12 +6,8 @@ require_once __DIR__ . '/models/Sanitary.php';
 
 include_once __DIR__ . '/data/database.php';
 
-// FOOD
-// var_dump($crocchetteMaxiAgeing, $crocchetteMediumAgeing, $crocchetteOneAdult);
-// TOYS
-// var_dump($mouseCatnip, $arkLeo, $kongPuppy)
 
-var_dump($foodShop, $toysShop, $sanitaryShop)
+// var_dump($foodShop, $toysShop, $sanitaryShop)
 ?>
 <!--  --> <!--  --> <!--  --><!--  --> <!--  --> <!--  -->
 <?php 
