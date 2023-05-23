@@ -22,7 +22,7 @@
                             <p><?php echo $foodItem->getDescription() ?></p>
                             <div class="btn_container d-flex">
                                 <button type="submit" class="btn bg-danger text-light fw-bold me-2"><i class="fa-solid fa-cart-shopping"></i></button>
-                                <button type="submit" class="btn bg-dark text-light fw-bold"><i class="fa-solid fa-heart text-danger"></i></button>
+                                <button type="submit" class="btn bg-dark text-light fw-bold"><i class="fa-solid fa-heart"></i></button>
                             </div>
                         </div>    
                     </div>
@@ -43,12 +43,12 @@
                                 <h6><?php echo $toysItem->getBrand() ?></h6>
                                 <h6><span class="fw-bold">Materiali:</span> <?php echo $toysItem->getMaterial() ?></h6>
                                 <h6><em><?php echo $toysItem->getCategory() ?></em></h6>
-                                <h6><?php echo $toysItem->getDimensions() ?></h6>
+                                <h6><span class="fw-bold">Dimensioni: </span> <?php echo $toysItem->getDimensions() ?></h6>
                                 <h6><span class="fw-bold">Prezzo:</span> <?php echo $toysItem->getPrice() ?>€</h6>
                                 <p><?php echo $toysItem->getDescription() ?></p>
                                 <div class="btn_container d-flex">
                                     <button type="submit" class="btn bg-danger text-light fw-bold me-2"><i class="fa-solid fa-cart-shopping"></i></button>
-                                    <button type="submit" class="btn bg-dark text-light fw-bold"><i class="fa-solid fa-heart text-danger"></i></button>
+                                    <button type="submit" class="btn bg-dark text-light fw-bold"><i class="fa-solid fa-heart"></i></button>
                                 </div>
                             </div>    
                         </div>
@@ -74,7 +74,7 @@
                                 <p><?php echo $sanitaryItem->getDescription() ?></p>
                                 <div class="btn_container d-flex">
                                     <button type="submit" class="btn bg-danger text-light fw-bold me-2"><i class="fa-solid fa-cart-shopping"></i></button>
-                                    <button type="submit" class="btn bg-dark text-light fw-bold"><i class="fa-solid fa-heart text-danger"></i></button>
+                                    <button type="submit" class="btn bg-dark text-light fw-bold"><i class="fa-solid fa-heart"></i></button>
                                 </div>
                             </div>    
                         </div>

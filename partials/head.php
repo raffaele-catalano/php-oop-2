@@ -14,3 +14,35 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Pet Shop</title>
 </head>
+
+<style>
+    .card {
+        position: relative;
+    }
+    .btn_container {
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .btn_container button {
+        transition: all .4s;
+
+    }
+    .btn_container button i {
+        transition: all .4s;
+    }
+    
+    .btn_container button:hover {
+        transform: scale(1.1);
+    }
+
+    .btn_container button:hover .fa-cart-shopping {
+        color: gold;
+
+    }
+    .btn_container button:hover .fa-heart {
+        color: crimson;
+    }
+</style>
