@@ -10,7 +10,7 @@
             <div class="row">
                 <?php foreach ($foodShop as $foodItem) : ?>
                 <div class="col">
-                    <div class="card text-dark" style="width: 25rem; height:45rem;">
+                    <div class="card text-dark" style="width: 25rem; height:50rem;">
                         <img src="<?php echo $foodItem->getImage() ?>" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-bold"><?php echo $foodItem->name ?></h5>
@@ -20,6 +20,10 @@
                             <h6><em><?php echo $foodItem->getCategory() ?></em></h6>
                             <h6><span class="fw-bold">Prezzo:</span> <?php echo $foodItem->getPrice() ?>€</h6>
                             <p><?php echo $foodItem->getDescription() ?></p>
+                            <div class="btn_container d-flex">
+                                <button type="submit" class="btn bg-danger text-light fw-bold me-2"><i class="fa-solid fa-cart-shopping"></i></button>
+                                <button type="submit" class="btn bg-dark text-light fw-bold"><i class="fa-solid fa-heart text-danger"></i></button>
+                            </div>
                         </div>    
                     </div>
                 </div>
@@ -32,7 +36,7 @@
             <div class="row">
                 <?php foreach ($toysShop as $toysItem) : ?>
                     <div class="col">
-                        <div class="card text-dark" style="width: 25rem; height:45rem;">
+                        <div class="card text-dark" style="width: 25rem; height:50rem;">
                             <img src="<?php echo $toysItem->getImage() ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold"><?php echo $toysItem->name ?></h5>
@@ -42,6 +46,10 @@
                                 <h6><?php echo $toysItem->getDimensions() ?></h6>
                                 <h6><span class="fw-bold">Prezzo:</span> <?php echo $toysItem->getPrice() ?>€</h6>
                                 <p><?php echo $toysItem->getDescription() ?></p>
+                                <div class="btn_container d-flex">
+                                    <button type="submit" class="btn bg-danger text-light fw-bold me-2"><i class="fa-solid fa-cart-shopping"></i></button>
+                                    <button type="submit" class="btn bg-dark text-light fw-bold"><i class="fa-solid fa-heart text-danger"></i></button>
+                                </div>
                             </div>    
                         </div>
                     </div>
@@ -54,7 +62,7 @@
                 <div class="row">
                     <?php foreach ($sanitaryShop as $sanitaryItem) : ?>
                         <div class="col">
-                            <div class="card text-dark" style="width: 25rem; height:45rem;"">
+                            <div class="card text-dark position-relative" style="width: 25rem; height:50rem;"">
                             <img src="<?php echo $sanitaryItem->getImage() ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold"><?php echo $sanitaryItem->name ?></h5>
@@ -64,6 +72,10 @@
                                 <h6><em><?php echo $sanitaryItem->getCategory() ?></em></h6>
                                 <h6><span class="fw-bold">Prezzo:</span> <?php echo $sanitaryItem->getPrice() ?>€</h6>
                                 <p><?php echo $sanitaryItem->getDescription() ?></p>
+                                <div class="btn_container d-flex">
+                                    <button type="submit" class="btn bg-danger text-light fw-bold me-2"><i class="fa-solid fa-cart-shopping"></i></button>
+                                    <button type="submit" class="btn bg-dark text-light fw-bold"><i class="fa-solid fa-heart text-danger"></i></button>
+                                </div>
                             </div>    
                         </div>
                     </div>
