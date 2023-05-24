@@ -16,6 +16,12 @@
 </head>
 
 <style>
+    body {
+        scroll-behavior: smooth !important;
+    }
+    .main-wrapper {
+        background-image: url(../assets/img/wallpaper.jpg);
+    }
     .card {
         position: relative;
     }
@@ -34,15 +40,17 @@
         transition: all .4s;
     }
     
-    .btn_container button:hover {
+    /* .btn_container button:hover {
         transform: scale(1.1);
-    }
+    } */
 
     .btn_container button:hover .fa-cart-shopping {
         color: gold;
+        transform: scale(1.3);
 
     }
     .btn_container button:hover .fa-heart {
         color: crimson;
+        transform: scale(1.4);
     }
 </style>

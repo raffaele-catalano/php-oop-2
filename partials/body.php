@@ -16,8 +16,8 @@
                             <h5 class="card-title fw-bold"><?php echo $foodItem->name ?></h5>
                             <h6><?php echo $foodItem->getBrand() ?></h6>
                             <h6><span class="fw-bold">Gusto:</span> <?php echo $foodItem->getTaste() ?></h6>
-                            <h6><?php echo $foodItem->getWeight() ?> Kg</h6>
-                            <h6><em><?php echo $foodItem->getCategory() ?></em></h6>
+                            <h6><span class="fw-bold">Peso Netto: </span><?php echo $foodItem->getWeight() ?> Kg</h6>
+                            <span class="bg-warning rounded-2 p-1"><?php echo $foodItem->getCategory() ?></span>
                             <h6><span class="fw-bold">Prezzo:</span> <?php echo $foodItem->getPrice() ?>€</h6>
                             <p><?php echo $foodItem->getDescription() ?></p>
                             <div class="btn_container d-flex">
@@ -42,7 +42,7 @@
                                 <h5 class="card-title fw-bold"><?php echo $toysItem->name ?></h5>
                                 <h6><?php echo $toysItem->getBrand() ?></h6>
                                 <h6><span class="fw-bold">Materiali:</span> <?php echo $toysItem->getMaterial() ?></h6>
-                                <h6><em><?php echo $toysItem->getCategory() ?></em></h6>
+                                <span class="bg-warning rounded-2 p-1"><?php echo $toysItem->getCategory() ?></span>
                                 <h6><span class="fw-bold">Dimensioni: </span> <?php echo $toysItem->getDimensions() ?></h6>
                                 <h6><span class="fw-bold">Prezzo:</span> <?php echo $toysItem->getPrice() ?>€</h6>
                                 <p><?php echo $toysItem->getDescription() ?></p>
@@ -69,7 +69,7 @@
                                 <h6><?php echo $sanitaryItem->getBrand() ?></h6>
                                 <h6><span class="fw-bold">Azione:</span> <?php echo $sanitaryItem->getAction() ?></h6>
                                 <h6><span class="fw-bold">Durata:</span> <?php echo $sanitaryItem->getDuration() ?? '---' ?></h6>
-                                <h6><em><?php echo $sanitaryItem->getCategory() ?></em></h6>
+                                <span class="bg-warning rounded-2 p-1"><?php echo $sanitaryItem->getCategory() ?></span>
                                 <h6><span class="fw-bold">Prezzo:</span> <?php echo $sanitaryItem->getPrice() ?>€</h6>
                                 <p><?php echo $sanitaryItem->getDescription() ?></p>
                                 <div class="btn_container d-flex">
