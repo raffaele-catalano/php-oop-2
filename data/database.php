@@ -74,7 +74,7 @@ $collareSeresto->setImage('assets/img/sanitary-img/collare_seresto.jpg');
 $collareSeresto->setAction('Antiparassitario');
 $collareSeresto->setDuration('8 mesi');
 $collareSeresto->setBrand('Seresto');
-$collareSeresto->setCategory('<i class="fa-solid fa-cat fa-lg"></i>');
+$collareSeresto->setCategory('<i class="fa-solid fa-dog fa-lg"></i>');
 $collareSeresto->setPrice(31.99);
 $collareSeresto->setDescription('Collare antiparassitario per cani di taglia grande oltre gli 8 kg di peso corporeo, contro pulci e zecche, rilascia principi attivi.');
 $sanitaryShop[] = $collareSeresto;
